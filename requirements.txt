@@ -1,6 +1,6 @@
 pandas
 numpy
-streamlit
+streamlit>=1.23.0
 plotly-express
 plotly
 openpyxl
