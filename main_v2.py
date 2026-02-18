@@ -10,7 +10,7 @@ from io import BytesIO
 st.set_page_config(layout='wide')
 sx_h, dx_h = st.columns([8,1])
 sx_h.title('Analisi Microfermate')
-dx_h.image('logo.png', width=200)
+#dx_h.image('logo.png', width=200)
 
 #PATH = 'DB_Fermi_nuovo_modello_form.xlsm'
 PATH = st.file_uploader("Carica il file Excel", type=["xlsm", "xlsx"])
